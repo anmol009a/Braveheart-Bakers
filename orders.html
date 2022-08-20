@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braveheart Bakers - Home Page</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<script src="script.js">
+
+</script>
+
+<body>
+    <nav>
+        <div>
+            <a id="logo" href="home_page.html">Braveheart Bakers</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="home_page.html">Home</a></li>
+                <li><a href="orders.html">Orders</a></li>
+                <li><a href="customers.html">Customers</a></li>
+                <li><a href="expenses.html">Expenses</a></li>
+                <li><a href="cash_flow.html">Cash Flow</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- New Order Container -->
+    <form action="" method="get">
+        <div id="grid-container">
+            <div class="grid-item">
+                <div class="grid-item-content">Date</div>
+                <div class="grid-item-content"> <input type="date" name="date" required></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">Item Name</div>
+                <div class="grid-item-content"> <input type="text" name="i_name" required></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">Item Quantity</div>
+                <div class="grid-item-content"> <input type="number" name="i_quantity" required></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">Item Price</div>
+                <div class="grid-item-content"> <input type="number" name="price" required></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">Customer Name</div>
+                <div class="grid-item-content"> <input type="text" name="c_name"></div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-item-content">Phone No</div>
+                <div class="grid-item-content"> <input type="tel" id="phone" name="phone"></div>
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
